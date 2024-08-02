@@ -1,0 +1,117 @@
+
+.ul-list {
+    list-style-type: disc;
+}
+.main-list-item {
+    margin-top: 5%;
+}
+.list-header {
+    font-weight: 700;
+ 
+
+}
+
+dl {
+    margin-left: 4%;
+}
+#section2 input,button,textarea {
+    margin-top: 2%;
+}
+table {
+   width: 30%;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 5%;
+    padding: 2%;
+}
+.table-one {
+    padding: 5%;
+    width: 60%;
+}
+.table-three {
+    text-align: center;
+    width: 50%;
+}
+.format-text {
+    border: 1px solid black;
+    padding: 2%;
+    width: 20%;
+
+}
+.format-text-normal {
+    white-space: normal;
+}
+.format-text-nowrap {
+    white-space: nowrap;
+}
+.format-text-pre {
+    white-space: pre;
+
+}
+.format-text-pre-wrap {
+    white-space: pre-wrap;
+}
+.section5-text, .section5-div {
+    height: 50px;
+    background-color: red;
+}
+.section5-span {
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    background-color: red;
+    margin-top: 5%;
+}
+.section5-h3 {
+    height: 50px;
+    background-color: red;
+}
+.section5-button{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+}
+.section5-section {
+    height: 50px;
+    width: 150px;
+    background-color: red;
+}
+.section6 div {
+    border: 1px solid blue;
+}
+.section6 div p {
+    background-color: aqua;
+}
+.section6 #test p {
+    color: red;
+    font-size: 30px;
+}
+.bbb {
+    font-weight: 800;
+    width: 30%;
+}
+.parent {
+    width: 20%;
+    background-color: antiquewhite;
+    padding: 2%;
+    margin: 4%;
+    position: relative;
+    display: grid;
+    gap: 10%;
+    height: 18rem;
+    grid-template-columns: repeat(2,40%);
+}
+.child {
+
+    height: 8rem;
+    background-color: blueviolet;
+    position: static;
+}
+.child-2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h3>Section №1</h3>
+      <ol>
+        <li class="main-list-item">
+          <ul class="ul-list">
+            <p class="list-header">Список покупок:</p>
+            <li class="ul-item">Хлеб</li>
+            <li class="ul-item">Масло</li>
+            <li class="ul-item">Молоко</li>
+          </ul>
+        </li>
+
+        <li class="main-list-item">
+          <ol class="ol-list" start="3">
+            <p class="list-header">Список покупок:</p>
+            <li class="ol-item">Хлеб</li>
+            <li class="ol-item">Масло</li>
+            <li class="ol-item">Молоко</li>
+          </ol>
+        </li>
+        <li class="main-list-item">
+          <dl>
+            <dt>HTML</dt>
+            <dd>
+              Язык гипертекстовой разметки, служит для <br />
+              создания HTML страниц
+            </dd>
+            <dt>CSS</dt>
+            <dd>
+              Каскадные таблицы стилей, служат для <br />
+              стилизации элементов HTML страницы
+            </dd>
+          </dl>
+        </li>
+      </ol>
+    </section>
+    <section id="section2">
+      <h3>Section №2</h3>
+      <form >
+        <input type="text" placeholder="Плейсхолдер" /> <br/>
+      <input type="text" value="Value" /> <br/>
+      <input type="text" disabled placeholder="disabled" /> <br/>
+      <input type="password" /> <br/>
+      <textarea name="" id="" placeholder="Введите текст"></textarea> <br/>
+      <input type="button" value="Кнопка через тег input" /> <br/>
+      <button>Кнопка через тег button</button>
+      </form>
+      
+    </section>
+    <section>
+      <h3>Section №3</h3>
+      <ol>
+        <li>
+          <table class="table-one">
+            <thead>
+              <tr>
+                <th>ячейка 1</th>
+                <th>ячейка 2</th>
+                <th>ячейка 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ячейка 4</td>
+                <td>ячейка 5</td>
+                <td>ячейка 6</td>
+              </tr>
+              <tr>
+                <td>ячейка 7</td>
+                <td>ячейка 8</td>
+                <td>ячейка 9</td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+
+        <li>
+          <table>
+            <tbody>
+              <tr>
+                <td colspan="3">ячейка 1</td>
+              </tr>
+              <tr>
+                <td>ячейка 4</td>
+                <td rowspan="2">ячейка 5</td>
+                <td>ячейка 6</td>
+              </tr>
+              <tr>
+                <td>ячейка 8</td>
+
+                <td>ячейка 9</td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+        <li>
+          <table class="table-three">
+            <thead>
+              <tr>
+                <th rowspan="2">номер</th>
+                <th colspan="2">теги</th>
+              </tr>
+              <tr>
+                <th>тег</th>
+                <th>значение</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>p</td>
+                <td rowspan="4">для текста</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>a</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>b</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>i</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>table</td>
+                <td>таблица</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>tr</td>
+                <td>ряд таблицы</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>td</td>
+                <td rowspan="2">ячейки таблицы</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>th</td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+      </ol>
+    </section>
+    <section>
+      <h3>Section №4</h3>
+      <ol>
+        <li>
+          <p class="format-text-normal format-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac
+            porttitor dolor, in egestas dui. Phasellus vulputate vehicula nisi
+            at auctor. Proin dictum interdum tellus, quis feugiat odio posuere
+            id. Fusce scelerisque tellus ut diam pretium mollis. Nulla quis
+            condimentum nibh. Nunc vitae nibh lacinia, commodo lacus quis,
+            feugiat purus. 
+          </p>
+        </li>
+        <li>
+            <p class="format-text-nowrap format-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac
+              porttitor dolor, in egestas dui.
+            </p>
+          </li>
+          <li>
+            <p class="format-text-pre format-text">
+                Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Donec ac
+                porttitor dolor, in egestas dui. Phasellus vulputate 
+                vehicula nisi
+                       at auctor. Proin dictum interdum tellus, quis 
+                feugiat odio posuere
+                id.
+            </p>
+          </li>
+          <li>
+            <p class="format-text-pre-wrap format-text">
+                Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Donec ac
+                porttitor dolor, in egestas dui. Phasellus vulputate 
+                vehicula nisi
+                       at auctor. Proin dictum interdum tellus, quis 
+                feugiat odio posuere
+                id.
+            </p>
+          </li>
+      </ol>
+    </section>
+    <section>
+        <h3>Section №5</h3>
+        <p class="section5-text">Это p</p>
+        <div class="section5-div">Это div</div>
+        <span class="section5-span">Это span</span>
+        <input type="text" class="section5-input" placeholder="Это input">
+        <h3 class="section5-h3">Это h3</h3>
+        <button class="section5-button">Это button</button>
+        <section class="section5-section">Это section 1</section>
+        <section class="section5-section">Это section 2</section>
+    </section>
+    <section class="section6">
+        <h3>Section №6</h3>
+        <div>
+            <p>p one</p>
+            <p class="bbb">p two</p>
+        </div>
+        <div>
+            <p class="bbb">p ffdfdf</p>
+            <p>p 1111111</p>
+        </div>
+        <span id="test" class="bbb">
+            <p>p ffdfdf</p>
+            <p>p 1111111</p>
+        </span>
+        <h2 class="bbb"></h2>
+    </section>
+    <section>
+        <h3>Section №7</h3>
+        <div class="parent">
+            <div class="child child-2">child-1</div>
+            <div class="child">child-2</div>
+            <div class="child">child-3</div>
+            <div class="child">child-4</div>
+        </div>
+    </section>
+    <button class="btn">!!!!!</button>
+    <script src="script.js"></script>
+  </body>
+</html>
