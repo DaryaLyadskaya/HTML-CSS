@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <section>
@@ -210,32 +210,238 @@
         <section class="section5-section">Это section 1</section>
         <section class="section5-section">Это section 2</section>
     </section>
-    <section class="section6">
-        <h3>Section №6</h3>
-        <div>
-            <p>p one</p>
-            <p class="bbb">p two</p>
-        </div>
-        <div>
-            <p class="bbb">p ffdfdf</p>
-            <p>p 1111111</p>
-        </div>
-        <span id="test" class="bbb">
-            <p>p ffdfdf</p>
-            <p>p 1111111</p>
-        </span>
-        <h2 class="bbb"></h2>
-    </section>
-    <section>
+    <section class="section-6">
+      <h3>Section №6</h3>
+      <div>
+          <p>Абзац внутри див</p>
+          <h2>Заголовок H2 внутри див</h2>
+      </div>
+      <div id="test">
+          <p>Абзац внутри элемента с id=test</p>
+          <h2>Заголовок H2 внутри элемента с id=test</h2>
+      </div>
+      <p class="bbb">Абзац с классом bbb</p>
+      <div id="test" class="bbb">
+          <p class="bbb">Абзац с классом bbb внутри элемента с id=test</p>
+      </div>
+      <h2 id="test" class="bbb">Заголовок H2 с классом bbb и id=test</h2>
+      <p class="bbb xxx">Абзац с классом bbb и xxx</p>
+      <h2 class="bbb xxx">Заголовок H2 с классом bbb и xxx</h2>
+      <div class="fff">
+          <p>Абзац внутри элемента с классом fff</p>
+          <p class="fff">Абзац с классом fff</p>
+          <p class="bbb">Абзац с классом bbb внутри класса fff</p>
+          <h2 class="bbb">Заголовок H2 с классом bbb внутри класса fff</h2>
+      </div>
+      <span data-value="45">Элемент с data-value</span>
+      <div class="parent">
+          <div class="child">Дочерний элемент с классом child</div>
+      </div>
+      <div class="text active">Элемент с двумя классами text и active</div>
+      <ul id="my-list">
+          <li>Первый элемент списка</li>
+          <li>Второй элемент списка</li>
+          <li>Третий элемент списка</li>
+      </ul>
+      <div class="container">
+        <img src="images/cat.jpg" alt="image1">
+        <p>Абзац</p>
+        <h1>Заголовок H1</h1>
+        <p>Абзац, который должен быть выбран</p>
+        <div>Див</div>
+        <p>Абзац после див</p>
+        <img src="images/cat.jpg" alt="image2">
+        <p>Абзац после див</p>
+        <p>Абзац после див</p>
+        <div>Див</div>
+    </div>
+  </section>
+  <section class="section-7">
+  
         <h3>Section №7</h3>
-        <div class="parent">
-            <div class="child child-2">child-1</div>
-            <div class="child">child-2</div>
-            <div class="child">child-3</div>
-            <div class="child">child-4</div>
-        </div>
+        <ol>
+          <li>
+            <div class="parent">
+              <div class="child ">child-1</div>
+              <div class="child child-2">child-2</div>
+              <div class="child">child-3</div>
+              <div class="child">child-4</div>
+          </div>
+          </li>
+          <li>
+            <div class="picture">
+              <img class="planet-1" src="images/planet-1.png" alt="planet-1">
+              <img class="planet-2" src="images/planet-2.png" alt="planet-1">
+              <img class="planet-3" src="images/planet-3.png" alt="planet-1">
+              <img class="asteroid" src="images/asteroid.png" alt="asteroid">
+              <img class="spaceship" src="images/spaceship.png" alt="spaceship">
+              <img class="superman" src="images/superman.png" alt="superman">
+              <img class="ufo" src="images/ufo.png" alt="ufo">
+
+            </div>
+          </li>
+        </ol>
+        
     </section>
-    <button class="btn">!!!!!</button>
-    <script src="script.js"></script>
+    <section class="section-8">
+      <h3>Section №8</h3>
+      <div class="block-1"></div>
+      <div class="block-2"></div>
+    </section>
+    <section class="section-9">
+      <h3>Section №9</h3>
+      <ol>
+        <li >
+          <div class="flexbox-1">
+            <span>span 1</span>
+            <span>span 2 span 2</span>
+            <span>span 3</span>
+            <span>span 4 span 4</span>
+            <span>span 5</span>
+            <span>span 6 span 6</span>
+            <span>span 7</span>
+          </div>
+         
+        </li>
+        <li >
+          <div class="flexbox-2">
+            <span>span 1 span 1</span>
+            <span> span 2</span>
+            <span>span 3 span 3</span>
+          </div>
+         
+        </li>
+        <li >
+          <div class="flexbox-3">
+            <span>span 1 span 1</span>
+            <span> span 2</span>
+            <span>span 3 span 3</span>
+          </div>
+         
+        </li>
+        <li >
+          <div class="flexbox-4">
+            <span>span 1 span 1</span>
+            <span> span 2</span>
+            <span>span 3 span 3 span 3</span>
+          </div>
+         
+        </li>
+        <li >
+          <div class="flexbox-5">
+            <span>span 1 span 1</span>
+            <span> span 2</span>
+            <span>span 3 span 3 span 3</span>
+          </div>
+         
+        </li>
+        <li >
+          <div class="flexbox-6">
+            <span>span 1 span 1</span>
+            <span> span 2</span>
+            <span>span 3 span 3 span 3</span>
+          </div>
+         
+        </li>
+        <li >
+          <div class="flexbox-7">
+            <span>span 1 span 1 span 1</span>
+            <span> span 2 span 2</span>
+            <span>span 3 span 3 span 3 span 3</span>
+          </div>
+         
+        </li>
+        <li >
+          <div class="flexbox-8">
+            <span>span 1 span 1 span 1</span>
+            <span> span 2 span 2</span>
+            <span>span 3 span 3 span 3 span 3</span>
+          </div>
+         
+        </li>
+        <li >
+          <div class="flexbox-9">
+            <span>span 1 span 1 span 1</span>
+            <span> span 2 span 2</span>
+            <span>span 3 span 3 span 3 span 3</span>
+          </div>
+         
+        </li>
+        <li >
+          <div class="flexbox-10">
+            <span>span 1 span 1 span 1</span>
+            <span> span 2 span 2</span>
+            <span>span 3 span 3 span 3 span 3</span>
+          </div>
+         
+        </li>
+        <li >
+          <div class="flexbox-11">
+            <span>text text</span>
+            <span> text text</span>
+            <span>text text</span>
+          </div>
+         
+        </li>
+      </ol>
+    </section>
+    <section class="section-10">
+      <h3>Section №10</h3>
+      <header class="header">
+        <p>Шапка страницы</p>
+      </header>
+      <main>
+        
+        <section class="main-content">
+          <p>Основная часть</p>
+          <div class="main-content-items">
+            <div class="main-content-item">Еще 1</div>
+          <div class="main-content-item">Еще 2</div>
+          <div class="main-content-item items-info ">Еще 3</div>
+          </div>
+          
+        </section>
+        
+        <aside class="side-area">
+          <p>Боковая область</p>
+  
+        </aside>
+      </main>
+      
+      <footer class="footer">
+        <div class="footer-item">Секция футера 1</div>
+        <div class="footer-item">Секция футера 2</div>
+        <div class="footer-item">Секция футера 3</div>
+        <div class="footer-item">Секция футера 4</div>
+      </footer>
+
+    </section>
+    <h3>Section №11</h3>
+    <section class="section-11">
+      <div class="parent-one">
+        <div class="child-one"></div>
+      </div>
+      <div class="parent-two">
+        <div class="child-two"></div>
+      </div>
+    </section>
+    <section class="section-12">
+      <h3>Section №12</h3>
+      <div class="background">
+        <div class="background-detail-one">
+          <img  src="images/background.png" alt="">
+        </div>
+        <div class="background-detail-two" >
+          <img src="images/background.png" alt="">
+        </div>
+      </div>
+      
+      
+    </section>
+    <section class="section-13">
+      <h3>Section №13</h3>
+      <div>div</div>
+    </section>
+<script src="script.js"></script>
   </body>
 </html>

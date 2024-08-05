@@ -1,0 +1,531 @@
+
+.ul-list {
+    list-style-type: disc;
+}
+.main-list-item {
+    margin-top: 5%;
+}
+.list-header {
+    font-weight: 700;
+ 
+
+}
+
+dl {
+    margin-left: 4%;
+}
+#section2 input,button,textarea {
+    margin-top: 2%;
+}
+table {
+   width: 30%;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 5%;
+    padding: 2%;
+}
+.table-one {
+    padding: 5%;
+    width: 60%;
+}
+.table-three {
+    text-align: center;
+    width: 50%;
+}
+.format-text {
+    border: 1px solid black;
+    padding: 2%;
+    width: 20%;
+
+}
+.format-text-normal {
+    white-space: normal;
+}
+.format-text-nowrap {
+    white-space: nowrap;
+}
+.format-text-pre {
+    white-space: pre;
+
+}
+.format-text-pre-wrap {
+    white-space: pre-wrap;
+}
+.section5-text, .section5-div {
+    height: 50px;
+    background-color: red;
+}
+.section5-span {
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    background-color: red;
+    margin-top: 5%;
+}
+.section5-h3 {
+    height: 50px;
+    background-color: red;
+}
+.section5-button{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+}
+.section5-section {
+    height: 50px;
+    width: 150px;
+    background-color: red;
+}
+ /* 0 / 0 / 1 / 1 / */
+.section-6  div > p {
+    color: blue;
+    font-size: 16px;
+}
+
+
+/* / 0 / 0 / 1 / 1 / */
+.section-6  div > h2 {
+    color: green;
+    font-size: 25px;
+}
+
+
+/* / 0 / 1 / 0 / 1 / */
+.section-6  #test > p {
+    color: red;
+    border: 1px solid blue
+}
+
+/* / 0 / 1 / 0 / 1 / */
+.section-6  #test > h2 {
+    color: orange;
+    font-size: 10px;
+}
+
+
+/* / 0 / 0 / 1 / 0 / */
+.section-6  .bbb {
+    color: purple;
+    font-weight: 800;
+}
+
+
+/* / 0 / 1 / 1 / 0 / */
+.section-6  #test .bbb {
+    color: brown;
+    font-size: 24px;
+}
+
+
+/* / 0 / 0 / 2 / 1 / */
+.section-6  p.bbb {
+    color: pink;
+    border: 5px solid yellow
+}
+
+
+/* / 0 / 2 / 1 / 1 / */
+.section-6  h2#test.bbb {
+    color: teal;
+    font-size: 8px;
+}
+
+
+/* / 0 / 1 / 2 / 1 / */
+.section-6  #test p.bbb {
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* / 0 / 0 / 2 / 0 / */
+.section-6  .bbb, section .xxx {
+    color: navy;
+    font-size: 23px;
+}
+
+/* / 0 / 0 / 2 / 1 / */
+.section-6  p.bbb, section h2.xxx {
+    color: lime;
+}
+
+/* / 0 / 1 / 2 / 1 / */
+.section-6  #test p.bbb, section #test p.xxx {
+    color: magenta;
+    font-style: italic;
+}
+
+/* / 0 / 0 / 1 / 0 / */
+.section-6  .fff {
+    color: olive;
+}
+
+/* / 0 / 0 / 1 / 1 / */
+.section-6  .fff > p {
+    color: maroon;
+}
+
+/* / 0 / 0 / 2 / 1 / */
+.section-6  p.fff {
+    color: cyan;
+    font-weight: lighter;
+}
+
+/* / 0 / 0 / 2 / 0 / */
+.section-6  .fff .bbb {
+    color: salmon;
+    font-size: 27px;
+}
+
+/* / 0 / 0 / 2 / 1 / */
+.section-6  .fff h2.bbb {
+    color: rgb(187, 61, 16);
+
+}
+
+/* / 0 / 0 / 0 / 1 / */
+.section-6  span {
+    color: rgb(181, 24, 160);
+    font-size: 10px;
+}
+
+/* / 0 / 0 / 1 / 1 / */
+.section-6  [data-value='45'] {
+    color: darkgreen;
+    border: 2px solid red
+}
+
+/* / 0 / 0 / 2 / 1 / */
+.section-6  .parent > .child {
+    color: darkblue;
+    font-size: 20px;
+}
+
+/* / 0 / 0 / 2 / 0 / */
+.section-6  .text.active {
+    color: indigo;
+    font-size: 25px;
+}
+
+/* / 0 / 1 / 0 / 2 / */
+.section-6  #my-list > li:nth-child(2) {
+    color: darkred;
+    font-weight: 200;
+}
+
+/* / 0 / 0 / 1 / 1 / */
+.section-6 .container h1 + p {
+    color: gold;
+}
+
+/* / 0 / 0 / 1 / 1 / */
+.section-6 .container div ~ p {
+    color: violet;
+    font-size: 10px;
+}
+
+/* / 0 / 0 / 1 / 0  */
+.section-6 .container :not(img) {
+    color: rgb(166, 18, 18);
+    font-size: 22px;
+}
+
+.parent {
+    height: 17rem;
+    width: 20%;
+    background-color: antiquewhite;
+    padding: 2%;
+    margin: 4%;
+    position: relative;
+    display: grid;
+    gap: 10%;
+
+    grid-template-columns: repeat(2,40%);
+}
+.child {
+
+    background-color: blueviolet;
+    position: static;
+}
+ /* .child-2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+} child_2 выйдет из основного потока, остальные child сместятся в grid сетке / */
+ /* .child-2 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+} с остальными child ничего не произойдет  */
+ .section-7 .picture {
+    background-image: url("../images/image.png");
+    width: 600px;
+    height: 400px;
+    background-size: 600px 400px;
+ }
+ .planet-1 {
+    position: absolute;
+    margin-left: 185px;
+    margin-top: 20px;
+ }
+ .planet-2 {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+ }
+ .planet-3 {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 120px;
+    z-index: 1;
+ }
+ .asteroid {
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 80px;
+ }
+ .ufo {
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 100px;
+    z-index: 1;
+ }
+ .spaceship {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 160px;
+    z-index: 0;
+    
+ }
+ .superman {
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 329px;
+ }
+ .section-8 {
+    display: flex;
+ }
+ .section-8 div {
+    margin: 30px; 
+padding: 20px; 
+width: 200px; 
+height: 200px; 
+background-color: pink; 
+border: 5px solid black;
+ }
+.section-8 .block-2 {
+    box-sizing: border-box;
+}
+.section-9 span {
+    background-color: bisque;
+
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.section-9 li {
+    margin-top: 2%;
+}
+.section-9 div {
+    display: flex;
+    width: 25%;
+    gap: 2%;
+    border: 1px solid blue;
+}
+.flexbox-1 {
+    flex-wrap: wrap;
+}
+.flexbox-2 {
+    justify-content: flex-start;
+}
+.flexbox-3 {
+    justify-content: flex-end;
+}
+.flexbox-4 {
+    justify-content: center;
+}
+.flexbox-5 {
+    justify-content: space-between;
+}
+.flexbox-6 {
+    justify-content: space-around;
+}
+.flexbox-7 {
+    align-items: flex-start;
+
+}
+.flexbox-7 span {
+    width: 8%;
+    margin: 0;
+
+}
+.flexbox-8 {
+    align-items: flex-end;
+
+}
+.flexbox-8 span {
+    width: 8%;
+    margin: 0;
+
+}
+.flexbox-9 {
+    align-items: center;
+
+}
+.flexbox-9 span {
+    width: 8%;
+    margin: 0;
+
+}
+.flexbox-10 {
+    align-items: stretch;
+
+}
+.flexbox-10 span {
+    width: 8%;
+    margin: 0;
+
+}
+.flexbox-11 {
+
+}
+.section-10 .header{
+    width: 100%;
+    padding: 2%;
+    font-size: 2rem;
+    background-color: bisque;
+    text-align: center;
+    box-sizing: border-box;
+}
+.section-10 .side-area {
+
+    padding: 2%;
+    font-size: 1rem;
+    background-color: rgb(172, 102, 18);
+    text-align: center;
+    width: 30%;
+}
+.section-10 .main-content {
+
+    padding: 2%;
+    font-size: 1rem;
+    background-color: rgb(153, 175, 221);
+    text-align: center;
+    width: 70%;
+
+
+}
+.section-10 main {
+    display: flex;
+    width: 100%;
+}
+.section-10 .main-content-items {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-10 .main-content-item {
+    padding: 2%;
+    margin: 2%;
+    background-color: blueviolet;
+    width: 40%;
+}
+.section-10 .items-info{
+    width: 100%;
+}
+.section-10 .footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(172, 211, 198);
+    gap: 5%;
+    padding: 2%;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.section-10 .footer-item {
+    padding: 2%;
+    background-color: aqua;
+    width: 10%;
+    text-align: center;
+}
+.section-11 .parent-one {
+    width: 30%;
+    margin: 2%;
+    background-color: bisque;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-11 .child-one {
+    width: 30%;
+    height: 30%;
+    background-color: blueviolet;
+}
+.section-11 .parent-two {
+    width: 30%;
+    margin: 2%;
+    background-color: bisque;
+    height: 25rem;
+    position: relative;
+
+    
+}
+.section-11  .child-two {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+    background-color: blueviolet;
+}
+.section-12 {
+    width: 100%;
+    overflow: hidden;
+    height: 20rem;
+}
+.section-12 .background-detail-one {
+    margin-top: -2%;
+    margin-left: -6%;
+
+    float: left;
+
+}
+.section-12 .background-detail-two {
+    float: right;
+   margin-right: -4%;
+   margin-top: -13%;
+
+
+}
+.section-12 {
+    width: 100%;
+    overflow: hidden;
+}
+.section-12 .background {
+    width: 100%;
+    margin-top: 8%;
+}
+.section-13 div {
+    background-color: aqua;
+    padding: 15px;
+     /* со всех 4-ч сторон отступы 15px */
+    padding: 15px 24px;
+    /* для верхней и нижней сторон 15px для левой  правой 24px */
+    padding: 15px 0 24px;
+    /* для верхней - 15, левой и правой - 0, нижней - 24 */
+    padding: 1px 2px 3px 4px;
+    /* для верхней - 1, правой - 2, нижней - 3, левой -4 */
+    margin: 4px;
+    /* со всех 4-ч сторон отступы 4px */
+    margin: 0 auto;
+    /* для верхней и нижней сторон 0 для левой  правой auto-то есть объект будет по середине */
+    margin: 15px 0 24px;
+    /* для верхней - 15, левой и правой - 0 , нижней - 24 */
+    margin: 1px 2px 3px 4px;
+    /* для верхней - 1, правой - 2, нижней - 3, левой -4 */
+}
