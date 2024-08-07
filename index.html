@@ -42,12 +42,12 @@
         </li>
       </ol>
     </section>
-    <section id="section2">
+    <section class="section2">
       <h3>Section №2</h3>
       <form>
-        <input type="text" placeholder="Плейсхолдер" /> <br />
-        <input type="text" value="Value" /> <br />
-        <input type="text" disabled placeholder="disabled" /> <br />
+        <input placeholder="Плейсхолдер" /> <br />
+        <input value="Value" /> <br />
+        <input disabled placeholder="disabled" /> <br />
         <input type="password" /> <br />
         <textarea name="" id="" placeholder="Введите текст"></textarea> <br />
         <input type="button" value="Кнопка через тег input" /> <br />
@@ -190,7 +190,7 @@
         </li>
       </ol>
     </section>
-    <section>
+    <section class="section-5">
       <h3>Section №5</h3>
       <p class="section5-text">Это p</p>
       <div class="section5-div">Это div</div>
@@ -198,8 +198,11 @@
       <input type="text" class="section5-input" placeholder="Это input" />
       <h3 class="section5-h3">Это h3</h3>
       <button class="section5-button">Это button</button>
-      <section class="section5-section">Это section 1</section>
-      <section class="section5-section">Это section 2</section>
+      <div class="sections">
+        <section class="section5-section s-1">Это section 1</section>
+      <section class="section5-section ">Это section 2</section>
+      </div>
+      
     </section>
     <section class="section-6">
       <h3>Section №6</h3>
@@ -326,28 +329,28 @@
           </div>
         </li>
         <li>
-          <div class="flexbox-7">
+          <div class="flexbox-7 flexbox_short">
             <span>span 1 span 1 span 1</span>
             <span> span 2 span 2</span>
             <span>span 3 span 3 span 3 span 3</span>
           </div>
         </li>
         <li>
-          <div class="flexbox-8">
+          <div class="flexbox-8 flexbox_short">
             <span>span 1 span 1 span 1</span>
             <span> span 2 span 2</span>
             <span>span 3 span 3 span 3 span 3</span>
           </div>
         </li>
         <li>
-          <div class="flexbox-9">
+          <div class="flexbox-9 flexbox_short">
             <span>span 1 span 1 span 1</span>
             <span> span 2 span 2</span>
             <span>span 3 span 3 span 3 span 3</span>
           </div>
         </li>
         <li>
-          <div class="flexbox-10">
+          <div class="flexbox-10 flexbox_short">
             <span>span 1 span 1 span 1</span>
             <span> span 2 span 2</span>
             <span>span 3 span 3 span 3 span 3</span>
@@ -365,26 +368,39 @@
     <section class="section-10">
       <h3>Section №10</h3>
       <header class="header">
-        <p>Шапка страницы</p>
+        <p class="header__text">Шапка страницы</p>
       </header>
-      <main>
-        <section class="main-content">
-          <p>Основная часть</p>
-          <div class="main-content-items">
-            <div class="main-content-item">Еще 1</div>
-            <div class="main-content-item">Еще 2</div>
-            <div class="main-content-item items-info">Еще 3</div>
+      <div class="content">
+        <main class="content__main main">
+          <p class="main__text">Основная часть</p>
+          <div class="main__items items">
+            <div class="items__item item">
+              <p class="item__text">Еще 1</p>
+            </div>
+            <div class="items__item item">
+              <p class="item__text">Еще 2</p>
+            </div>
+            <div class="items__item items__item__long item">
+              <p class="item__text">Еще 3</p>
+            </div>
           </div>
-        </section>
-        <aside class="side-area">
-          <p>Боковая область</p>
+        </main>
+        <aside class="content__aside aside">
+          <p class="aside__text">Боковая область</p>
         </aside>
-      </main>
+      </div>
       <footer class="footer">
-        <div class="footer-item">Секция футера 1</div>
-        <div class="footer-item">Секция футера 2</div>
-        <div class="footer-item">Секция футера 3</div>
-        <div class="footer-item">Секция футера 4</div>
+        <div class="footer__sections sections">
+          <div class="sections__section section">
+            <p class="section__text">Секция футера</p>
+          </div>
+          <div class="sections__section section">
+            <p class="section__text">Секция футера</p>
+          </div>
+          <div class="sections__section section">
+            <p class="section__text">Секция футера</p>
+          </div>
+        </div>
       </footer>
     </section>
     <h3>Section №11</h3>
@@ -399,12 +415,7 @@
     <section class="section-12">
       <h3>Section №12</h3>
       <div class="background">
-        <div class="background-detail-one">
-          <img src="images/background.png" alt="" />
-        </div>
-        <div class="background-detail-two">
-          <img src="images/background.png" alt="" />
-        </div>
+        
       </div>
     </section>
     <section class="section-13">
@@ -414,20 +425,20 @@
     <section class="section-14">
       <h3>Section №14</h3>
       <div class="grid-lines">
-        <header class="header">header</header>
-        <nav class="nav">nav</nav>
-        <main>main</main>
-        <section>section</section>
-        <aside>aside</aside>
-        <footer class="footer">footer</footer>
+        <header class="grid-lines__header">header</header>
+        <nav class="grid-lines__nav">nav</nav>
+        <main class="grid-lines__main">main</main>
+        <section class="grid-lines__section">section</section>
+        <aside class="grid-lines__aside"></aside>
+        <footer class="grid-lines__footer">footer</footer>
       </div>
       <div class="grid-areas">
-        <header class="header">header</header>
-        <nav class="nav">nav</nav>
-        <main>main</main>
-        <section>section</section>
-        <aside>aside</aside>
-        <footer class="footer">footer</footer>
+        <header class="grid-areas__header">header</header>
+        <nav class="grid-areas__nav">nav</nav>
+        <main class="grid-areas__main">main</main>
+        <section class="grid-areas__main">section</section>
+        <aside class="grid-areas__aside">aside</aside>
+        <footer class="grid-areas__footer">footer</footer>
       </div>
     </section>
     <section class="section-15">
@@ -507,5 +518,6 @@
         </li>
       </ol>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
