@@ -87,7 +87,7 @@ th {
 .section-5 .sections {
   display: flex;
   margin-top: 1%;
-  gap:5px;
+  gap: 5px;
 }
 .section5-section {
   height: 50px;
@@ -486,12 +486,10 @@ section #test p.xxx {
 
 /* section 12 */
 .section-12 .background {
-  background: url('../images/background.png') no-repeat -8% 115%, url('../images/background.png') no-repeat 105% -20%;
+  background: url("../images/background.png") no-repeat -8% 115%,
+    url("../images/background.png") no-repeat 105% -20%;
   width: 100%;
   height: 500px;
-
-
-
 }
 
 /* section 13 */
